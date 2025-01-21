@@ -1,0 +1,12 @@
+# robots.txt configuration
+User-agent: *
+Allow: /academics/
+Allow: /research/
+Allow: /publications/
+Allow: /papers/
+Allow: /courses/
+Allow: /gov/
+Allow: /resources/
+Allow: /documents/
+Allow: /reports/
+Disallow: /private/
