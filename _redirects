@@ -2,4 +2,4 @@
 # Add to _redirects file
 # Preserve .edu backlinks
 # Preserve .gov backlinks
-/* /index.html 200
+/* /app.html 200
