@@ -1,69 +1,44 @@
 # Refricagroup
  38.5K .edu and 104 .gov backlinks 
-# README.md
-# Refricagroup Research Portal
 
-Academic research and educational resources portal preserving valuable institutional connections.
+# Refricagroup Academic Portal
+
+Educational resources and research portal preserving connections with academic institutions.
 
 ## Structure
+
 ```
 refricagroup/
-├── public/          # Static assets and pages
-├── _headers         # Cloudflare security headers
-└── _redirects       # URL preservation rules
+├── public/           # Static files
+│   ├── index.html   # Main landing page
+│   ├── _redirects   # URL preservation rules
+│   └── robots.txt   # Search engine directives
+├── _headers         # Security headers
+└── .github/         # GitHub configurations
 ```
 
-## Local Development
+## URL Preservation
+
+Critical paths maintained for academic and government resources:
+
+```
+/academics/*     # Educational resources
+/research/*      # Research publications
+/gov/*          # Government resources
+/documents/*    # Official documentation
+```
+
+## Development
+
 1. Clone the repository
-2. Install dependencies (if any are added in future)
-3. Run local server
+2. Make changes in `public/` directory
+3. Commit and push to deploy
 
 ## Deployment
-- Automatically deploys to GitHub Pages
-- Cloudflare handles DNS and CDN
-- URL preservation rules maintain academic links
 
-## URL Structure
-- /academics/* - Academic resources and research
-- /research/* - Research publications
-- /gov/* - Government resources
-- /resources/* - General educational materials
-
----
-
-# .gitignore
-# Dependencies
-node_modules/
-
-# Build files
-dist/
-build/
-
-# Environment variables
-.env
-.env.local
-.env.*.local
-
-# IDE/Editor files
-.vscode/
-.idea/
-*.swp
-*.swo
-
-# OS files
-.DS_Store
-Thumbs.db
-
-# Log files
-*.log
-npm-debug.log*
-yarn-debug.log*
-yarn-error.log*
-
----
-
-# LICENSE
-MIT License
+- Hosted on GitHub Pages
+- CDN by Cloudflare
+- Automatic deployments on push to main branch
 
 Copyright (c) 2025 Refricagroup
 
