@@ -1,0 +1,14 @@
+# URL Preservation Rules
+# Add to _redirects file
+# Preserve .edu backlinks
+/academics/*     /index.html     200
+/research/*      /index.html     200
+/publications/*  /index.html     200
+/papers/*        /index.html     200
+/courses/*       /index.html     200
+
+# Preserve .gov backlinks
+/gov/*           /index.html     200
+/resources/*     /index.html     200
+/documents/*     /index.html     200
+/reports/*       /index.html     200
